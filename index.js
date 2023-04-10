@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")();
 var x;
 
 var name = prompt("Please enter your Name and Surname","Harry Potter");
