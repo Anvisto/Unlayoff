@@ -8,9 +8,9 @@ var female;
 
 if (gender == male)
 {
-    alert("Welcome, MR. " + name);
+    engine.put("out", System.out);
 }
 else if (gender == female)
 {
-    alert("Welcome, MS. " + name);
+    engine.put("out", System.out);
 }
